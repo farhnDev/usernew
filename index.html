@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form indux</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+<h1 align="center">Penambahan user</h1>
+<div class="contents" align="center">
+
+<!--child contents-->
+    <div class="child-content" id="user-form">
+        <h2>Form User Data</h2>
+        <hr>
+        <form action="" id="form-data-user">
+            <div class="form-element">
+                <label for="nama">Nama User:</label>
+                <input type="text" id="nama" name="nama"
+                placeholder="isikan nama" value=""
+                maxlength="10" required>
+            </div>
+
+            <div class="form-element">
+                <label for="umur">Umur user:</label>
+                <input type="text" id="umur"
+                name="umur" placeholder="isikan usia mu"
+                value="" maxlength="2" required>
+            </div>
+
+            <div class="form-element">
+                <label for="domisili">Domisili:</label>
+                <input type="text" id="domisili" name="domisili"
+                placeholder="isikan domisili mu" value=""
+                maxlength="10" required>
+            </div>
+
+            <div class="form-element">
+                <input id="submitButton" type="submit" value="submit Data">
+            </div>
+        </form>
+    </div>
+
+    <div class="child-content" id="user-list">
+        <h2>User list</h2>
+        <hr>
+        <table id="user-list-table">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                    <th>Domisili</th>
+                </tr>
+            </thead>
+            <tbody id="user-list-detail" align="center">
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script src="/js/script.js"></script>r
+</body>
+</html>
